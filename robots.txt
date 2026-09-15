@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://haroonq66.github.io/hive80lab/sitemap.xml
