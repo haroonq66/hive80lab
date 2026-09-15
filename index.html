@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hive80 Lab — Automation & DevOps Tools for Small Teams</title>
+    <meta name="description" content="Ready-to-use automation scripts, DevOps templates, and operations kits for small teams. Cut your work hours by 40% with proven frameworks.">
+    <meta name="keywords" content="automation, devops, small teams, revenue operations, incident response, productivity">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #1a1a2e; background: #f8f9fa; }
+        .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 80px 20px; text-align: center; }
+        .hero h1 { font-size: 2.8rem; margin-bottom: 20px; font-weight: 800; }
+        .hero p { font-size: 1.3rem; opacity: 0.95; max-width: 600px; margin: 0 auto 30px; }
+        .hero .cta { display: inline-block; background: white; color: #667eea; padding: 16px 40px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.1rem; transition: transform 0.2s; }
+        .hero .cta:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+        .products { max-width: 1200px; margin: 60px auto; padding: 0 20px; }
+        .products h2 { text-align: center; font-size: 2rem; margin-bottom: 40px; }
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .product-card { background: white; border-radius: 16px; padding: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); transition: transform 0.2s; }
+        .product-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(0,0,0,0.12); }
+        .product-card .price { font-size: 2.5rem; font-weight: 800; color: #667eea; margin: 15px 0; }
+        .product-card .price small { font-size: 1rem; color: #888; font-weight: 400; }
+        .product-card h3 { font-size: 1.3rem; margin-bottom: 10px; }
+        .product-card ul { list-style: none; margin: 20px 0; }
+        .product-card ul li { padding: 8px 0; border-bottom: 1px solid #f0f0f0; }
+        .product-card ul li:before { content: "✓ "; color: #4CAF50; font-weight: bold; }
+        .product-card .btn { display: block; background: #667eea; color: white; padding: 14px; border-radius: 8px; text-decoration: none; text-align: center; font-weight: 700; transition: background 0.2s; }
+        .product-card .btn:hover { background: #5568d3; }
+        .product-card.featured { border: 2px solid #667eea; position: relative; }
+        .product-card.featured .badge { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #667eea; color: white; padding: 4px 16px; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+        .stats { background: #1a1a2e; color: white; padding: 60px 20px; text-align: center; }
+        .stats .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; max-width: 1000px; margin: 0 auto; }
+        .stats .stat { text-align: center; }
+        .stats .stat .number { font-size: 3rem; font-weight: 800; color: #667eea; }
+        .stats .stat .label { font-size: 1rem; opacity: 0.8; margin-top: 5px; }
+        .content-section { max-width: 800px; margin: 60px auto; padding: 0 20px; }
+        .content-section h2 { font-size: 1.8rem; margin-bottom: 20px; }
+        .content-section a { color: #667eea; text-decoration: none; }
+        .content-section a:hover { text-decoration: underline; }
+        .article-list { list-style: none; }
+        .article-list li { padding: 12px 0; border-bottom: 1px solid #eee; }
+        .article-list li a { font-weight: 600; }
+        .footer { background: #1a1a2e; color: #888; text-align: center; padding: 30px 20px; }
+        .footer a { color: #667eea; text-decoration: none; }
+        .guarantee { text-align: center; padding: 30px; background: #e8f5e9; border-radius: 12px; margin: 40px 0; }
+        .guarantee h3 { color: #2e7d32; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Hive80 Lab</h1>
+        <p>Ready-to-use automation scripts, DevOps templates, and operations kits that cut your work hours by 40%.</p>
+        <a href="https://hive80lab.gumroad.com" class="cta">Browse All Products →</a>
+    </div>
+
+    <div class="stats">
+        <div class="stat-grid">
+            <div class="stat"><div class="number">40%</div><div class="label">Time Saved</div></div>
+            <div class="stat"><div class="number">15min</div><div class="label">Incident Response</div></div>
+            <div class="stat"><div class="number">34</div><div class="label">Templates Included</div></div>
+            <div class="stat"><div class="number">30+</div><div class="label">Articles Published</div></div>
+        </div>
+    </div>
+
+    <div class="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <h3>Ops Starter Kit</h3>
+                <div class="price">$19</div>
+                <ul>
+                    <li>5 automation scripts with setup guide</li>
+                    <li>Payment gateway health monitor</li>
+                    <li>Revenue dashboard templates</li>
+                    <li>Incident response framework</li>
+                    <li>30-day money-back guarantee</li>
+                </ul>
+                <a href="https://hive80lab.gumroad.com/l/ops-starter-kit" class="btn">Get Started →</a>
+            </div>
+            <div class="product-card featured">
+                <div class="badge">BEST VALUE</div>
+                <h3>Operations Mega Bundle</h3>
+                <div class="price">$49 <small>$88 (Save 45%)</small></div>
+                <ul>
+                    <li>All 5 operations kits included</li>
+                    <li>34 files total, lifetime updates</li>
+                    <li>Revenue automation scripts</li>
+                    <li>Incident response templates</li>
+                    <li>Meeting optimization framework</li>
+                    <li>Priority support</li>
+                </ul>
+                <a href="https://hive80lab.gumroad.com/l/ops-mega-bundle" class="btn">Get the Bundle →</a>
+            </div>
+            <div class="product-card">
+                <h3>Automation Starter Pack</h3>
+                <div class="price">$19</div>
+                <ul>
+                    <li>Python automation scripts</li>
+                    <li>CI/CD pipeline templates</li>
+                    <li>Health check frameworks</li>
+                    <li>Security checklist</li>
+                    <li>30-day money-back guarantee</li>
+                </ul>
+                <a href="https://hive80lab.gumroad.com/l/automation-starter-pack" class="btn">Get Started →</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="guarantee">
+        <h3>30-Day Money-Back Guarantee</h3>
+        <p>Try any product risk-free. If it doesn't save you time within 30 days, get a full refund. No questions asked.</p>
+    </div>
+
+    <div class="content-section">
+        <h2>Latest Articles on Dev.to</h2>
+        <ul class="article-list">
+            <li><a href="https://dev.to/hive80lab/revenue-automation-5-scripts-that-cut-my-work-hours-by-40-2pa3">Revenue Automation: 5 Scripts That Cut My Work Hours by 40%</a></li>
+            <li><a href="https://dev.to/hive80lab/the-15-minute-incident-response-framework-that-saved-my-team-4dk6">The 15-Minute Incident Response Framework That Saved My Team</a></li>
+            <li><a href="https://dev.to/hive80lab/devops-for-small-teams-you-dont-need-a-platform-engineering-team-of8">DevOps for Small Teams: You Don't Need a Platform Engineering Team</a></li>
+            <li><a href="https://dev.to/hive80lab/meeting-tracking-the-most-overlooked-productivity-tool-in-small-teams-3i23">Meeting Tracking: The Most Overlooked Productivity Tool</a></li>
+            <li><a href="https://dev.to/hive80lab/how-i-cut-meeting-time-by-50-with-async-ops-practices-57cl">How I Cut Meeting Time by 50% With Async Ops Practices</a></li>
+        </ul>
+        <p style="margin-top: 20px;"><a href="https://dev.to/hive80lab">See all articles on Dev.to →</a></p>
+    </div>
+
+    <div class="footer">
+        <p>Hive80 Lab — Automation tools for small teams. Built by engineers, for engineers.</p>
+        <p style="margin-top: 10px;"><a href="https://hive80lab.gumroad.com">Store</a> | <a href="https://dev.to/hive80lab">Blog</a> | <a href="https://github.com/haroonq66/swarm">GitHub</a></p>
+    </div>
+</body>
+</html>
